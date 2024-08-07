@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+    <test name="Test">
+        <classes>
+
+            <!-- Biz burada eyni vaxti iki test classin run ede bilirik
+             bunlari yazan zaman iki test run edirik-->
+
+            <class name="TestNg.lesson01.OrangeHRMTest"/>
+            <class name="TestNg.lesson01.FirstTestCase"/>
+        </classes>
+    </test>
+</suite>
