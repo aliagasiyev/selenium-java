@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="groupingsuite">
+    <test name="groupingtest">
+
+      <groups>
+          <run>
+             <!-- <include name="sanity"/>-->
+              <!-- <include name="regression"/>-->
+              <include name="functional"/>
+
+              <!--<exclude name="regression"/>-->
+          </run>
+        </groups>
+
+        <classes>
+            <class name="TestNg.lesson04.LoginTests"/>
+            <class name="TestNg.lesson04.SignUpTests"/>
+            <class name="TestNg.lesson04.PaymentTests"/>
+        </classes>
+    </test>
+</suite>

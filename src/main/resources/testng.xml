@@ -4,7 +4,8 @@
         <classes>
 
             <!-- Biz burada eyni vaxti iki test classin run ede bilirik
-             bunlari yazan zaman iki test run edirik-->
+             bunlari yazan zaaman amma biz 1 test run edirik
+             name "Test" yazmisiq bu orda gorunurki 1 test yazilib-->
 
             <class name="TestNg.lesson01.OrangeHRMTest"/>
             <class name="TestNg.lesson01.FirstTestCase"/>
